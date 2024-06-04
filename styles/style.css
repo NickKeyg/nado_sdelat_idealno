@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  margin: 0px;
   height: 100%;
   position: relative;
   min-width: 800px;
@@ -43,8 +44,8 @@ body {
 
 .page__title:hover::before {
   position: absolute;
-  right: 165px;
-  bottom: 65%;
+  right: 22px;
+  bottom: 63%;
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   border: 2px solid #000;
   border-bottom: 16px solid #000;
