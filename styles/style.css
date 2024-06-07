@@ -19,6 +19,8 @@ body {
 }
 
 .page__title {
+  position: absolute;
+  inset: 65px;
   font-family: Raleway, sans-serif;
   max-width: 720px;
   margin: 0 auto;
@@ -27,7 +29,6 @@ body {
   text-align: center;
   text-transform: uppercase;
   z-index: 1;
-  padding-top: 60px;
 }
 
 .video {
@@ -40,12 +41,13 @@ body {
 
 .page__title:hover {
   color: #4c4c4c;
+  cursor: default;
 }
 
 .page__title:hover::before {
   position: absolute;
   right: 22px;
-  bottom: 270px;
+  bottom: 540px;
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   border: 2px solid #000;
   border-bottom: 16px solid #000;
